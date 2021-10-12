@@ -1,17 +1,13 @@
 import './App.css';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/Navigation/NavBar/NavBar';
+import Newsletter from './components/Pages/Newsletter/Newsletter';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <header>
-        <h1>Newsletter</h1>
-      </header>
-      <main>
-        Main Content
-      </main>
+      <Newsletter />
       <Footer />
     </div>
   );
