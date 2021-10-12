@@ -31,7 +31,7 @@ export const StyledSideBar = styled.div`
   top: 0px;
   height: 100vh;
   width: 90%;
-  left: ${props => props.isOpen ? '0px' : '-90%'};
+  left: ${props => props.isOpen ? '0px' : '-130%'};
   max-width: 500px;
   padding: 25px;
   background-color: white;

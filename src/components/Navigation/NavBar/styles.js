@@ -70,4 +70,4 @@ export const StyledMenu = styled.div`
 
 export const StyledImage = styled.img`
   height: 28px;
-  `;
+`;

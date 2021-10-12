@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import NavBar from './components/Navigation/NavBar/NavBar';
 
 function App() {
@@ -11,9 +12,7 @@ function App() {
       <main>
         Main Content
       </main>
-      <footer>
-        <p>&copy; 2021 BLOCKWORKS GROUP</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
